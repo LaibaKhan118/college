@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+    font-family: "Raleway", sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.product {
+    background-color: white;
+    width: 90vh;
+    height: 85vh;
+    box-shadow: 3px 3px 8px 8px #b6b6b69c;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.left {
+    background-image: radial-gradient(#a4f05d, #8aca4f, #6ea040) ;
+    vertical-align: middle;
+    position: absolute;
+    width: 45vh;
+    height: 65vh;
+    top:10%;
+    left: 15%;
+    transform: translate(-50%, -0.1%);
+    box-shadow: 3px 3px 8px 8px #b6b6b69c;
+}
+
+.wishlist {
+    height: 3vh;
+    width: 3vh;
+    float: right;
+    margin: 10px 15px;
+}
+
+.left img {
+    height: 45vh;
+    width: 50vh;
+    position: relative;
+    top: 0;
+    left: 30%;
+    transform: translate(-50%, -0.1%)
+}
+
+.right {
+    display: block;
+    float: right;
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    font-size: 2.4vh;
+}
+
+.right h2, .code{
+    font-size: 2.2vh;
+    color: rgb(142, 142, 142);
+    line-height: 0;
+    
+}
+
+.right h2 {
+    margin-top: 6vh;
+}
+
+.right h1 {
+    line-height: 1.5vh;
+    font-size: 4vh;
+    letter-spacing: -1px;
+    color:rgb(52, 68, 43);
+}
+
+.right .price {
+    font-size: 2.5vh;
+    word-spacing: 2vh;
+    color: rgb(244, 47, 47);
+}
+
+.right .price span {
+    font-size: 7vh;
+}
+
+.right ul {
+    margin-left: -20px;
+}
+
+button {
+    padding: 1.5em 3.1em;
+        border: none;
+        border-radius: 7px;
+        font-size: 0.8em;
+        font-weight: 700;
+        letter-spacing: 1.3px;
+        color: #fff;
+        background-color: #ff3f40;
+        box-shadow: 2px 2px 25px -7px #4c4c4c;
+        cursor: pointer;
+        margin-top: 15px;
+        &:active {
+            transform: scale(0.97);
+        }
+}
